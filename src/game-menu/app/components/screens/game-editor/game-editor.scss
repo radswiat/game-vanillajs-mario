@@ -1,0 +1,37 @@
+.game-editor {
+  display: flex;
+  height: 100%;
+  background: #FFFFE3;
+  flex-direction: column;
+}
+
+.editor {
+  display: flex;
+  height: 794px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+  &__row {
+    border: 1px solid #D8B98D;
+    border-width: 0px 1px 0px 0px;
+  }
+
+  &__cell {
+    width: 64px;
+    height: 64px;
+    border: 1px solid #D8B98D;
+    border-width: 0px 0px 1px 0px;
+    text-align: center;
+  }
+}
+
+
+.palette {
+  display: flex;
+  background: #f5f5f5;
+  flex: 1;
+
+  &__blocks {
+    padding: 6px;
+  }
+}

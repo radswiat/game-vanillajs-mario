@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 8px;
+  font-family: 'Press Start 2P', cursive;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.canvas-game {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.stretch {
+  display: flex;
+  align-items: stretch;
+  align-self: stretch;
+  height: 100%;
+}
+
+.flex {
+  flex: 1;
+}

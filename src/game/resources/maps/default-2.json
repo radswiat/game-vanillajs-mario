@@ -1,0 +1,66 @@
+[
+  {
+    "id": "MARIO",
+    "type": "entities",
+    "location": [
+      260,
+      550
+    ]
+  },
+  {
+    "id": "LUIGI",
+    "type": "entities",
+    "location": [
+      200,
+      550
+    ]
+  },
+  {
+    "id": "DIRT",
+    "type": "tiles",
+    "location": [
+      260,
+      90
+    ]
+  },
+  {
+    "id": "DIRT_BLOCK",
+    "type": "tiles",
+    "location": [
+      300,
+      450
+    ]
+  },
+  {
+    "id": "QUESTION_MARK",
+    "type": "tiles",
+    "location": [
+      180,
+      164
+    ]
+  },
+  {
+    "id": "QUESTION_MARK_STATIC",
+    "type": "tiles",
+    "location": [
+      100,
+      164
+    ]
+  },
+  {
+    "id": "DUCK",
+    "type": "entities",
+    "location": [
+      100,
+      100
+    ]
+  },
+  {
+    "id": "BIRD",
+    "type": "entities",
+    "location": [
+      300,
+      20
+    ]
+  }
+]

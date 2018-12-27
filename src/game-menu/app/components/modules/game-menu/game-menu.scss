@@ -1,0 +1,28 @@
+.game-menu {
+  background: #3e3e3e;
+  height: 25px;
+  padding-left: 80px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+
+  &__element {
+    color: #dcdcdc;
+    cursor: pointer;
+    height: 25px;
+    line-height: 25px;
+    padding: 0px 15px;
+
+    &:hover {
+      background: darken(#3e3e3e, 10);
+    }
+  }
+
+  &__separator {
+    width: 1px;
+    background: #dcdcdc;
+    height: 100%;
+  }
+
+}

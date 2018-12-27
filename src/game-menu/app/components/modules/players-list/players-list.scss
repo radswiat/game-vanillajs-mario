@@ -1,0 +1,19 @@
+.players-list {
+  position: fixed;
+  top: 26px;
+  right: 0;
+  z-index: 999;
+
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.4);
+  border: 1px solid white;
+  border-color: rgba(255, 255, 255, 0.4);
+  border-width: 0px 0px 1px 1px;
+
+  h2 {
+    font-size: 8px;
+    border: 1px solid rgba(0, 0, 255, 0.4);
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 0px 6px 0px;
+  }
+}

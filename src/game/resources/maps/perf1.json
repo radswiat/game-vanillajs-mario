@@ -1,0 +1,1000 @@
+[
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        58,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT_BLOCK",
+    "location": [
+      256,
+      192
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        58,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT_BLOCK",
+    "location": [
+      256,
+      512
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        0,
+        184
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 3,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              0,
+              184
+            ],
+            [
+              30,
+              184
+            ]
+          ],
+          "right": [
+            [
+              60,
+              184
+            ],
+            [
+              90,
+              184
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "bird",
+    "type": "entities",
+    "id": "BIRD",
+    "location": [
+      320,
+      64
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        0,
+        184
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 3,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              0,
+              184
+            ],
+            [
+              30,
+              184
+            ]
+          ],
+          "right": [
+            [
+              60,
+              184
+            ],
+            [
+              90,
+              184
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "bird",
+    "type": "entities",
+    "id": "BIRD",
+    "location": [
+      320,
+      640
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        0,
+        184
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 3,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              0,
+              184
+            ],
+            [
+              30,
+              184
+            ]
+          ],
+          "right": [
+            [
+              60,
+              184
+            ],
+            [
+              90,
+              184
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "bird",
+    "type": "entities",
+    "id": "BIRD",
+    "location": [
+      384,
+      128
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        0,
+        184
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 3,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              0,
+              184
+            ],
+            [
+              30,
+              184
+            ]
+          ],
+          "right": [
+            [
+              60,
+              184
+            ],
+            [
+              90,
+              184
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "bird",
+    "type": "entities",
+    "id": "BIRD",
+    "location": [
+      384,
+      576
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        0,
+        184
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 3,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              0,
+              184
+            ],
+            [
+              30,
+              184
+            ]
+          ],
+          "right": [
+            [
+              60,
+              184
+            ],
+            [
+              90,
+              184
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "bird",
+    "type": "entities",
+    "id": "BIRD",
+    "location": [
+      448,
+      192
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        0,
+        184
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 3,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              0,
+              184
+            ],
+            [
+              30,
+              184
+            ]
+          ],
+          "right": [
+            [
+              60,
+              184
+            ],
+            [
+              90,
+              184
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "bird",
+    "type": "entities",
+    "id": "BIRD",
+    "location": [
+      448,
+      512
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        0,
+        184
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 3,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              0,
+              184
+            ],
+            [
+              30,
+              184
+            ]
+          ],
+          "right": [
+            [
+              60,
+              184
+            ],
+            [
+              90,
+              184
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "bird",
+    "type": "entities",
+    "id": "BIRD",
+    "location": [
+      512,
+      256
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        0,
+        184
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 3,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              0,
+              184
+            ],
+            [
+              30,
+              184
+            ]
+          ],
+          "right": [
+            [
+              60,
+              184
+            ],
+            [
+              90,
+              184
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "bird",
+    "type": "entities",
+    "id": "BIRD",
+    "location": [
+      512,
+      448
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        0,
+        184
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 3,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              0,
+              184
+            ],
+            [
+              30,
+              184
+            ]
+          ],
+          "right": [
+            [
+              60,
+              184
+            ],
+            [
+              90,
+              184
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "bird",
+    "type": "entities",
+    "id": "BIRD",
+    "location": [
+      640,
+      320
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        0,
+        184
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 3,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              0,
+              184
+            ],
+            [
+              30,
+              184
+            ]
+          ],
+          "right": [
+            [
+              60,
+              184
+            ],
+            [
+              90,
+              184
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "bird",
+    "type": "entities",
+    "id": "BIRD",
+    "location": [
+      640,
+      384
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        0,
+        184
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 3,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              0,
+              184
+            ],
+            [
+              30,
+              184
+            ]
+          ],
+          "right": [
+            [
+              60,
+              184
+            ],
+            [
+              90,
+              184
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "bird",
+    "type": "entities",
+    "id": "BIRD",
+    "location": [
+      704,
+      256
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        0,
+        184
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 3,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              0,
+              184
+            ],
+            [
+              30,
+              184
+            ]
+          ],
+          "right": [
+            [
+              60,
+              184
+            ],
+            [
+              90,
+              184
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "bird",
+    "type": "entities",
+    "id": "BIRD",
+    "location": [
+      704,
+      448
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        0,
+        184
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 3,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              0,
+              184
+            ],
+            [
+              30,
+              184
+            ]
+          ],
+          "right": [
+            [
+              60,
+              184
+            ],
+            [
+              90,
+              184
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "bird",
+    "type": "entities",
+    "id": "BIRD",
+    "location": [
+      768,
+      192
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        0,
+        184
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 3,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              0,
+              184
+            ],
+            [
+              30,
+              184
+            ]
+          ],
+          "right": [
+            [
+              60,
+              184
+            ],
+            [
+              90,
+              184
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "bird",
+    "type": "entities",
+    "id": "BIRD",
+    "location": [
+      768,
+      512
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        0,
+        184
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 3,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              0,
+              184
+            ],
+            [
+              30,
+              184
+            ]
+          ],
+          "right": [
+            [
+              60,
+              184
+            ],
+            [
+              90,
+              184
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "bird",
+    "type": "entities",
+    "id": "BIRD",
+    "location": [
+      832,
+      128
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        0,
+        184
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 3,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              0,
+              184
+            ],
+            [
+              30,
+              184
+            ]
+          ],
+          "right": [
+            [
+              60,
+              184
+            ],
+            [
+              90,
+              184
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "bird",
+    "type": "entities",
+    "id": "BIRD",
+    "location": [
+      832,
+      576
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        0,
+        184
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 3,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              0,
+              184
+            ],
+            [
+              30,
+              184
+            ]
+          ],
+          "right": [
+            [
+              60,
+              184
+            ],
+            [
+              90,
+              184
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "bird",
+    "type": "entities",
+    "id": "BIRD",
+    "location": [
+      896,
+      64
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        0,
+        184
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 3,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              0,
+              184
+            ],
+            [
+              30,
+              184
+            ]
+          ],
+          "right": [
+            [
+              60,
+              184
+            ],
+            [
+              90,
+              184
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "bird",
+    "type": "entities",
+    "id": "BIRD",
+    "location": [
+      896,
+      640
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        0,
+        184
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 3,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              0,
+              184
+            ],
+            [
+              30,
+              184
+            ]
+          ],
+          "right": [
+            [
+              60,
+              184
+            ],
+            [
+              90,
+              184
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "bird",
+    "type": "entities",
+    "id": "BIRD",
+    "location": [
+      960,
+      0
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        0,
+        184
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 3,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              0,
+              184
+            ],
+            [
+              30,
+              184
+            ]
+          ],
+          "right": [
+            [
+              60,
+              184
+            ],
+            [
+              90,
+              184
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "bird",
+    "type": "entities",
+    "id": "BIRD",
+    "location": [
+      960,
+      704
+    ]
+  }
+]
