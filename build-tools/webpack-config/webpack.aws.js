@@ -29,7 +29,7 @@ const env = getClientEnvironment(vars.publicUrl);
 
 module.exports = {
   context: cssModulesConfig.context,
-  devtool: 'cheap-module-source-map',
+  devtool: 'none',
   entry: [
     // Include babel-polyfills
     'babel-polyfill',
@@ -157,10 +157,6 @@ module.exports = {
     // https://github.com/jmblog/how-to-optimize-momentjs-with-webpack
     // You can remove this if you don't use Moment.js:
     new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
-    // Visualize webpack bundle stats
-    // - exports html file with stats for every build type
-    // @partial
-    Visualizer('aws'),
     // Uglify js - minimize javascript
     // @partial
     UglifyJsPlugin(),

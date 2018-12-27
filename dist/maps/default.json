@@ -1,0 +1,1325 @@
+[
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      0,
+      640
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      0,
+      704
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      64,
+      256
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/luigi.png",
+      "location": [
+        211,
+        0
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 3,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              181,
+              0
+            ],
+            [
+              150,
+              0
+            ],
+            [
+              121,
+              0
+            ],
+            [
+              89,
+              0
+            ]
+          ],
+          "right": [
+            [
+              241,
+              0
+            ],
+            [
+              272,
+              0
+            ],
+            [
+              300,
+              0
+            ]
+          ]
+        },
+        "jump": {
+          "left": [
+            [
+              29,
+              0
+            ]
+          ],
+          "right": [
+            [
+              359,
+              0
+            ]
+          ]
+        },
+        "stand": {
+          "left": [
+            [
+              181,
+              0
+            ]
+          ],
+          "right": [
+            [
+              211,
+              0
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "player2",
+    "type": "entities",
+    "id": "LUIGI",
+    "location": [
+      64,
+      512
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      64,
+      640
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      64,
+      704
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      128,
+      256
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      128,
+      640
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      128,
+      704
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        90,
+        0
+      ],
+      "size": [
+        16,
+        24
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 6,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              90,
+              0
+            ],
+            [
+              120,
+              0
+            ],
+            [
+              150,
+              0
+            ],
+            [
+              180,
+              0
+            ]
+          ],
+          "right": [
+            [
+              210,
+              0
+            ],
+            [
+              240,
+              0
+            ],
+            [
+              270,
+              0
+            ],
+            [
+              300,
+              0
+            ]
+          ]
+        },
+        "stand": {
+          "left": [
+            [
+              90,
+              0
+            ]
+          ],
+          "right": [
+            [
+              210,
+              0
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "duck",
+    "type": "entities",
+    "id": "DUCK",
+    "location": [
+      192,
+      192
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      192,
+      256
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      192,
+      640
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      192,
+      704
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      256,
+      256
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/mario.png",
+      "location": [
+        211,
+        0
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 3,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              181,
+              0
+            ],
+            [
+              150,
+              0
+            ],
+            [
+              121,
+              0
+            ],
+            [
+              89,
+              0
+            ]
+          ],
+          "right": [
+            [
+              241,
+              0
+            ],
+            [
+              272,
+              0
+            ],
+            [
+              300,
+              0
+            ]
+          ]
+        },
+        "jump": {
+          "left": [
+            [
+              29,
+              0
+            ]
+          ],
+          "right": [
+            [
+              359,
+              0
+            ]
+          ]
+        },
+        "stand": {
+          "left": [
+            [
+              181,
+              0
+            ]
+          ],
+          "right": [
+            [
+              211,
+              0
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "player",
+    "type": "entities",
+    "id": "MARIO",
+    "location": [
+      256,
+      512
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      256,
+      640
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      256,
+      704
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      320,
+      256
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      320,
+      640
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      320,
+      704
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      384,
+      640
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      384,
+      704
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      448,
+      640
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      448,
+      704
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      512,
+      640
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      512,
+      704
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      576,
+      448
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      576,
+      640
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      576,
+      704
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        129,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 6,
+      "sequence": [
+        [
+          95,
+          3
+        ],
+        [
+          95,
+          3
+        ],
+        [
+          95,
+          3
+        ],
+        [
+          95,
+          3
+        ],
+        [
+          112,
+          3
+        ],
+        [
+          129,
+          3
+        ]
+      ]
+    },
+    "behaviourClass": "questionMark",
+    "type": "tiles",
+    "id": "QUESTION_MARK",
+    "location": [
+      640,
+      448
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      640,
+      640
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      640,
+      704
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        95,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 6,
+      "sequence": [
+        [
+          95,
+          3
+        ],
+        [
+          95,
+          3
+        ],
+        [
+          95,
+          3
+        ],
+        [
+          95,
+          3
+        ],
+        [
+          112,
+          3
+        ],
+        [
+          129,
+          3
+        ]
+      ]
+    },
+    "behaviourClass": "questionMark",
+    "type": "tiles",
+    "id": "QUESTION_MARK",
+    "location": [
+      704,
+      256
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      704,
+      448
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        95,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 6,
+      "sequence": [
+        [
+          95,
+          3
+        ],
+        [
+          95,
+          3
+        ],
+        [
+          95,
+          3
+        ],
+        [
+          95,
+          3
+        ],
+        [
+          112,
+          3
+        ],
+        [
+          129,
+          3
+        ]
+      ]
+    },
+    "behaviourClass": "questionMark",
+    "type": "tiles",
+    "id": "QUESTION_MARK",
+    "location": [
+      768,
+      256
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      768,
+      448
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      768,
+      640
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      768,
+      704
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        95,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 6,
+      "sequence": [
+        [
+          95,
+          3
+        ],
+        [
+          95,
+          3
+        ],
+        [
+          95,
+          3
+        ],
+        [
+          95,
+          3
+        ],
+        [
+          112,
+          3
+        ],
+        [
+          129,
+          3
+        ]
+      ]
+    },
+    "behaviourClass": "questionMark",
+    "type": "tiles",
+    "id": "QUESTION_MARK",
+    "location": [
+      832,
+      448
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        90,
+        0
+      ],
+      "size": [
+        16,
+        24
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 6,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              90,
+              0
+            ],
+            [
+              120,
+              0
+            ],
+            [
+              150,
+              0
+            ],
+            [
+              180,
+              0
+            ]
+          ],
+          "right": [
+            [
+              210,
+              0
+            ],
+            [
+              240,
+              0
+            ],
+            [
+              270,
+              0
+            ],
+            [
+              300,
+              0
+            ]
+          ]
+        },
+        "stand": {
+          "left": [
+            [
+              90,
+              0
+            ]
+          ],
+          "right": [
+            [
+              210,
+              0
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "duck",
+    "type": "entities",
+    "id": "DUCK",
+    "location": [
+      832,
+      576
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      832,
+      640
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      832,
+      704
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      896,
+      448
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      896,
+      640
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [
+        40,
+        3
+      ],
+      "size": [
+        16,
+        16
+      ]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [
+      896,
+      704
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/enemies.png",
+      "location": [
+        90,
+        0
+      ],
+      "size": [
+        16,
+        24
+      ]
+    },
+    "animate": {
+      "type": "",
+      "speed": 6,
+      "sequences": {
+        "walk": {
+          "left": [
+            [
+              90,
+              0
+            ],
+            [
+              120,
+              0
+            ],
+            [
+              150,
+              0
+            ],
+            [
+              180,
+              0
+            ]
+          ],
+          "right": [
+            [
+              210,
+              0
+            ],
+            [
+              240,
+              0
+            ],
+            [
+              270,
+              0
+            ],
+            [
+              300,
+              0
+            ]
+          ]
+        },
+        "stand": {
+          "left": [
+            [
+              90,
+              0
+            ]
+          ],
+          "right": [
+            [
+              210,
+              0
+            ]
+          ]
+        }
+      }
+    },
+    "behaviourClass": "duck",
+    "type": "entities",
+    "id": "BIRD",
+    "location": [
+      192,
+      100
+    ]
+  },
+  {
+    "sprite": {
+      "img": "assets/tiles.png",
+      "location": [40, 3],
+      "size": [16, 16]
+    },
+    "type": "tiles",
+    "id": "DIRT",
+    "location": [1100, 704]
+  }
+]

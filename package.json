@@ -8,7 +8,7 @@
     "server": "PORT=3001 nodemon --exec babel-node src-server/server.js --presets=env,stage-2",
     "sasslint": "sass-lint -c .sass-lint.yml -v -q -i 'src/app/styles/external/**/*.scss'",
     "start": "nodemon --watch build-tools/ --exec babel-node build-tools/npm-scripts/webpack-dev.js --presets=env,stage-2",
-    "build:aws": "babel-node build-tools/npm-scripts/webpack-aws.js --presets=env,stage-2",
+    "build": "babel-node build-tools/npm-scripts/webpack-aws.js --presets=env,stage-2",
     "start:tests": "jest --config test/unit/jest-config.js --no-cache -i",
     "start:tests:watch": "jest --config test/unit/jest-config.js -i --no-cache --watch",
     "build:eb": "babel-node build-tools/npm-scripts/webpack-server.js --presets=env,stage-2 && npm run build:aws"
