@@ -43,7 +43,7 @@
   align-items: center;
   height: 100%;
   flex-direction: column;
-  background: url(/radek-side-scroller/static/media/bg.png) no-repeat;
+  background: url(/static/media/bg.png) no-repeat;
   background-size: auto 100%; }
   .welcome-screen__button {
     font-size: 20px;

@@ -5,7 +5,7 @@ const paths = require('../config/webpack/paths');
 module.exports = {
   // public path defines root path for all resources like .js,.css
   // this usually is the same for dev and aws but could be different for live
-  publicPath: '/radek-side-scroller/',
+  publicPath: '/',
   // html templates
   // @using HtmlWebpackPlugin
   // html templates defines from where your index.html will be created and how
