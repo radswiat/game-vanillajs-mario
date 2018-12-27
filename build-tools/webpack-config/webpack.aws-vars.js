@@ -56,8 +56,8 @@ module.exports = {
   globals: {
     DEV: false,
     DEMO: true,
-    AJAX_ROOT: JSON.stringify('/radek-side-scroller/'),
-    SOCKET_URL: JSON.stringify('http://52.50.58.226'),
+    AJAX_ROOT: JSON.stringify('/'),
+    SOCKET_URL: JSON.stringify(''),
     'process.env': {
       NODE_ENV: JSON.stringify('production'),
     },
